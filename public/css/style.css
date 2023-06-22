@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Aileron';
+    src: url('../font/Aileron-Regular.otf');
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../font/Lora-Regular.otf');
+}
+* {
+    /* font-family: 'Inter Tight', sans-serif; */
+    font-family: 'Aileron';
+}
+.navbar {
+    background-color: #E26F03;
+}
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Aileron';
+}
+h3, h4 {
+    font-family: 'Lora';
+    font-weight: 500;
+}
+.line hr {
+    opacity: 100;
+}
+.card-box {
+    background: #E26F03;
+    border-radius: 8px;
+    color: white;
+    min-height: 310px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.card-box h5 {
+    background: white;
+    color: #E26F03;
+    width: 40px;
+    padding: 6px;
+    border-radius: 50%;
+    font-family: 'Lora';
+    font-weight: 600;
+}
+.card-box h6 {
+    font-family: 'Lora';
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-box p {
+    font-size: 15px;
+}
+#ourTeam h6 {
+    font-family: 'Lora';
+    font-size: 24px;
+    font-weight: 500;
+}
+#ourTeam p.position-team {
+    font-style: italic;
+}
+#gallery img {
+    max-height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar .navbar-collapse {
+        height: 100vh;
+        align-items: start;
+    }
+    .navbar-toggler {
+        background: white;
+        font-size: 16px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    p, ul li {
+        font-size: 14px;
+    }
+}
