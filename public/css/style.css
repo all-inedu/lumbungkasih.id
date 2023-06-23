@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Lora';
-    src: url('../font/Lora-Regular.otf');
+    src: url('../font/Lora-Regular.ttf');
 }
 * {
     /* font-family: 'Inter Tight', sans-serif; */
